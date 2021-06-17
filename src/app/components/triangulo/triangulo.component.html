@@ -1,1 +1,21 @@
-<p>triangulo works!</p>
+<div style="text-align: center;">
+    <h1>Triangulo</h1>
+    <img src="assets/imagen/triangulo.png" width="200px" alt=""> <br> 
+ <label for="lado">Ingrese el primer lado</label>
+<input type="number"  id="lado1" style="margin: 3px;" class="col-sm-1 col-form-label" [(ngModel)]="lado1" >  
+<label for="lado">Ingrese el segundo lado</label>
+<input type="number"  id="lado2" style="margin: 3px;" class="col-sm-1 col-form-label" [(ngModel)]="lado2">
+<label for="lado">Ingrese el tercer lado</label>
+<input type="number"  id="lado3" style="margin: 3px;" class="col-sm-1 col-form-label" [(ngModel)]="lado3"> <br> 
+<label for="lado">Ingrese la Base</label>
+<input type="number"  id="base" style="margin: 3px;" class="form-control" [(ngModel)]="base">
+ <br>
+ <label for="lado">Ingrese la Altura</label>
+<input type="number"  id="altura" style="margin: 3px;" class="form-control" [(ngModel)]="altura">
+ <br>
+ <button class="btn btn-primary" style="margin: 10px;" (click)="AyP()">Calcular</button> <br>
+<label for="">Valor de su Area</label>
+<input type="number" id="area" value="" style="margin: 10px;" class="form-control" [(ngModel)]="area"> <br>
+<label for="">Valor de su Perimetro</label>
+<input type="number" id="perimetro" value="" style="margin: 10px;" class="form-control" [(ngModel)]="perimetro">
+</div>
